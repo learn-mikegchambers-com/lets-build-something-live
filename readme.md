@@ -1,6 +1,6 @@
 # Let's Build Something Live!
 
-These are the resources for my LBS searise on YouTube.
+These are the resources for my LBS series on YouTube.
 
 Subscribe and watch along here: https://youtube.com/c/mikegchambers
 
