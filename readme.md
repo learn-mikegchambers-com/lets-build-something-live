@@ -16,3 +16,6 @@ https://youtu.be/7D_m9GdWMLI
 Ep: 3 - Training the model
 https://youtu.be/hGu3MbtDrD8
 (Trained model is here: https://lets-build-something-assets.s3.amazonaws.com/ep3/model.tar.gz)
+
+Ep: 4 - Deploy the model
+https://youtu.be/sEtMLYqVNJ4
