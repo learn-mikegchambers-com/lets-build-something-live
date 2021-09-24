@@ -1,0 +1,3 @@
+The model built during the session is available here:
+
+https://lets-build-something-assets.s3.amazonaws.com/ep3/model.tar.gz
