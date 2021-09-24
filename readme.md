@@ -4,6 +4,8 @@ These are the resources for my LBS series on YouTube.
 
 Subscribe and watch along here: https://youtube.com/c/mikegchambers
 
+Streams live, weekly, at 4:30pm PST.
+
 Ep: 0 - AMA Pilot
 https://youtu.be/rHjrDsJI0Dc
 
@@ -19,3 +21,4 @@ https://youtu.be/hGu3MbtDrD8
 
 Ep: 4 - Deploy the model
 https://youtu.be/sEtMLYqVNJ4
+
