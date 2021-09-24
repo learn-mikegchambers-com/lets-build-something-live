@@ -4,7 +4,7 @@ These are the resources for my LBS series on YouTube.
 
 Subscribe and watch along here: https://youtube.com/c/mikegchambers
 
-Streams live, weekly, at 4:30pm PST.
+Streams live, weekly, at 4:30pm PST (and availble as a recording straight after).
 
 Ep: 0 - AMA Pilot
 https://youtu.be/rHjrDsJI0Dc
