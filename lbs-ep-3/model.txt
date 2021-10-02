@@ -1,3 +1,7 @@
 The model built during the session is available here:
-
 https://lets-build-something-assets.s3.amazonaws.com/ep3/model.tar.gz
+
+
+UPDATE:
+There is a new model (one that works!) available here:
+https://lets-build-something-assets.s3.amazonaws.com/ep3/model2.tar.gz
