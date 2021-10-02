@@ -5,3 +5,27 @@ https://lets-build-something-assets.s3.amazonaws.com/ep3/model.tar.gz
 UPDATE:
 There is a new model (one that works!) available here:
 https://lets-build-something-assets.s3.amazonaws.com/ep3/model2.tar.gz
+
+Training Image (Depends on the region you're working in):
+
+Region: af-south-1	Uri: 455444449433.dkr.ecr.af-south-1.amazonaws.com/image-classification:1
+Region: ap-east-1	Uri: 286214385809.dkr.ecr.ap-east-1.amazonaws.com/image-classification:1
+Region: ap-northeast-1	Uri: 501404015308.dkr.ecr.ap-northeast-1.amazonaws.com/image-classification:1
+Region: ap-northeast-2	Uri: 306986355934.dkr.ecr.ap-northeast-2.amazonaws.com/image-classification:1
+Region: ap-northeast-3	Uri: 867004704886.dkr.ecr.ap-northeast-3.amazonaws.com/image-classification:1
+Region: ap-south-1	Uri: 991648021394.dkr.ecr.ap-south-1.amazonaws.com/image-classification:1
+Region: ap-southeast-1	Uri: 475088953585.dkr.ecr.ap-southeast-1.amazonaws.com/image-classification:1
+Region: ap-southeast-2	Uri: 544295431143.dkr.ecr.ap-southeast-2.amazonaws.com/image-classification:1
+Region: ca-central-1	Uri: 469771592824.dkr.ecr.ca-central-1.amazonaws.com/image-classification:1
+Region: eu-central-1	Uri: 813361260812.dkr.ecr.eu-central-1.amazonaws.com/image-classification:1
+Region: eu-north-1	Uri: 669576153137.dkr.ecr.eu-north-1.amazonaws.com/image-classification:1
+Region: eu-south-1	Uri: 257386234256.dkr.ecr.eu-south-1.amazonaws.com/image-classification:1
+Region: eu-west-1	Uri: 685385470294.dkr.ecr.eu-west-1.amazonaws.com/image-classification:1
+Region: eu-west-2	Uri: 644912444149.dkr.ecr.eu-west-2.amazonaws.com/image-classification:1
+Region: eu-west-3	Uri: 749696950732.dkr.ecr.eu-west-3.amazonaws.com/image-classification:1
+Region: me-south-1	Uri: 249704162688.dkr.ecr.me-south-1.amazonaws.com/image-classification:1
+Region: sa-east-1	Uri: 855470959533.dkr.ecr.sa-east-1.amazonaws.com/image-classification:1
+Region: us-east-1	Uri: 811284229777.dkr.ecr.us-east-1.amazonaws.com/image-classification:1
+Region: us-east-2	Uri: 825641698319.dkr.ecr.us-east-2.amazonaws.com/image-classification:1
+Region: us-west-1	Uri: 632365934929.dkr.ecr.us-west-1.amazonaws.com/image-classification:1
+Region: us-west-2	Uri: 433757028032.dkr.ecr.us-west-2.amazonaws.com/image-classification:1
