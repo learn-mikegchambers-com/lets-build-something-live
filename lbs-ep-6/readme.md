@@ -26,15 +26,15 @@ Step 3:
     - Properties > Static website hosting (get the URL of the bucket).
     - Permisions > Bucket Policy > 
 
-{
-  "Version":"2012-10-17",
-  "Statement":{
-      "Effect":"Allow",
-      "Principal": "*",
-      "Action":"s3:GetObject",
-      "Resource":"ARN/*"
-  }
-}
+    {
+      "Version":"2012-10-17",
+      "Statement":{
+          "Effect":"Allow",
+          "Principal": "*",
+          "Action":"s3:GetObject",
+          "Resource":"ARN/*"
+      }
+    }
 
 Step 4:
  - Edit 'app.js' with the URL for the API.
