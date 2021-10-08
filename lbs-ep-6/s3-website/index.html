@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(255, 153, 0);
+      }
+    </style>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    <!-- blueimp-load-image -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-load-image/5.14.0/load-image.all.min.js" integrity="sha512-HZg0q8NV+VTxnU6hdkK0rL+fSmTGCbXZ3mHjqCCi87St5QRdvXENfRxkMK692inskRsCPee07d7VwcKNWaByCQ==" crossorigin="anonymous"></script>
+    <!-- Set viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lets Build Something</title>
+  </head>
+
+  <body class="bg-warning">
+
+    <nav class="navbar navbar-light bg-success">
+        <a class="navbar-brand align-bottom" href="#">
+          <img src="tea.svg" width="30" height="30" alt="logo">
+        </a>
+        <span class="navbar-brand mb-0 h1">Let's Build Something</span>
+    </nav>
+
+    <nav id="banner" class="navbar navbar-light  justify-content-center">
+      <span id="banner-text" class="navbar-brand mb-0 h1 m-3">Tap 'Browse' to upload or take a photo...</span>
+    </nav>
+
+    <div class="d-flex justify-content-center">
+      <div id="spinner" class="spinner-border text-success m-3" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <div style="background-image: url('back.png'); background-repeat: no-repeat; background-size: 100%;">
+      <canvas id="imageCanvas" width="256" height="256" style="width: 100%;"></canvas>
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="custom-file">
+          <input   type="file" class="custom-file-input" accept="image/*" id="imageLoader" name="imageLoader">
+          <label  style="border-radius: 0 !important;" class="custom-file-label" for="imageLoader">Take a photo or upload...</label>
+        </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <button style="border-radius: 0 !important; margin: 0 !important;" class="btn btn-warning btn-block" type="button" data-toggle="collapse" data-target="#samples">
+        No images? No worries! Tap HERE for sample images...
+      </button>
+    </div>
+
+    <div class="justify-content-center collapse bg-warning mb-3" id="samples">
+      <div class="row">
+        <div class="col"><img style="width: 100%;" src="test_1.jpg" onclick="loadSample('test_1.jpg');" /></div>
+        <div class="col"><img style="width: 100%;" src="test_2.jpg" onclick="loadSample('test_2.jpg');" /></div>
+        <div class="col"><img style="width: 100%;" src="test_3.jpg" onclick="loadSample('test_3.jpg');" /></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark text-light pt-4">
+
+      <!-- Footer Text -->
+      <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <h5 class="text-uppercase font-weight-bold">Why this?</h5>
+            <p>This is a demo of Machine Learning image classification.  It was built with AWS (Amazon Web Services) SageMaker.  
+              This live demo was created for Mike's YouTube Live Stream and Mike's AWS Machine Learning Specialty Cert course, available <a href="https://learn.mikegchambers.com/p/aws-machine-learning-specialty-certification-course">here</a>.</p>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none pb-3">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mb-md-0 mb-3">
+
+            <!-- Content -->
+            <h5 class="text-uppercase font-weight-bold">Links:</h5>
+            <p>LinkedIn: <a href="https://linkedin.com/in/mikegchambers">Mike on Linkedin</a></p>
+            <p>Twitter: <a href="https://twitter.com/mikegchambers">@mikegchambers</a></p>
+            <p>Course: <a href="https://learn.mikegchambers.com/p/aws-machine-learning-specialty-certification-course">AWS Machine Learning Specialty Certification</a></p>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </div>
+      <!-- Footer Text -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="app.js"></script>
+
+  </body>
+
+</html>      
